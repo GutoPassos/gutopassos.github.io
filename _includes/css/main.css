@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: Casual Hardcore;
+    src: url(../../fonts/CASUALH.OTF)
+}
+
+@font-face {
+    font-family: Gothic;
+    src: url(../../fonts/GOTHICBI.TTF)
+}
+
 body {
     overflow-x: hidden;
 }
@@ -82,7 +92,10 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: url("/img/fundo.png") no-repeat center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
 }
 
 header .container {
@@ -95,12 +108,22 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text .pname {
+    display: block;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: "Casual Hardcore","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10em;
+    letter-spacing: 0.1em;
+}
+
+header .surname{
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: "Gothic";
+    font-size: 6em;
+    letter-spacing: 0.1em;
+    margin-top: -70px;
 }
 
 header .intro-text .skills {
@@ -181,7 +204,9 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: url(/img/sobre.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 @media(max-width:767px) {
@@ -273,7 +298,7 @@ section.success {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px dotted rgb(169, 169, 169);
 }
 
 .floating-label-form-group input,
@@ -309,7 +334,7 @@ section.success {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #eee;
+    border-left: 2px dotted #4B4B4D;
 }
 
 .floating-label-form-group-with-value label {
@@ -322,7 +347,7 @@ section.success {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 2px dotted rgb(169, 169, 169);
 }
 
 footer {
