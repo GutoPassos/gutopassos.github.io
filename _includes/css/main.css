@@ -57,7 +57,7 @@ header {
     background: url("/img/fundo.png") no-repeat center fixed;
     background-size: cover;
     background-attachment: fixed;
-    height: 90vh;
+    height: 100vh;
 }
 
 header .container {
