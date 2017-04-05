@@ -393,8 +393,8 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
-footer a{
-    margin-top: 10px;
+footer img{
+    margin-top: 5px;
 }
 
 .btn-social {
