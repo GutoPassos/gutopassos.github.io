@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Ummono Design - Desenvolvimento por <a href="https://fusi.li">Fusili Tech Art</a>
+  copyright: Ummono Design
   location: LOCAL
   social: NOSSAS REDES SOCIAIS
   credits: 
@@ -45,9 +45,9 @@ social:
   - title: instagram
     url: https://www.instagram.com/ummonodesign/
   - title: whatsapp
-    url: 
+    url: wpp://5531988488820
   - title: skype
-    url: 
+    url: skype://guto.silveira6?call
 
 # Postal address (add as many lines as necessary)
 address:
