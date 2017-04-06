@@ -14,8 +14,14 @@
     src: url(../../fonts/GOTHICBI.TTF)
 }
 
+@font-face{
+    font-family: Calibri;
+    src: url(../../fonts/calibri.ttf)
+}
+
 body {
     overflow-x: hidden;
+    font-family: "Calibri"
 }
 
 p {
@@ -98,6 +104,38 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+
+/* Team section */
+
+#team{
+    background-image: url(../../img/equipe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+#img_team {
+  width: 80%;
+}
+
+
+#profile {
+    width: 200x;  /* Or whatever */
+    margin-right: 80px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.team-heading { 
+    padding-top: 45px;
+    text-align: center;
+}
+
 /* Porfólio section */
 
 service-heading {
@@ -147,6 +185,7 @@ hr.contact  {
     }
 }
 
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -174,7 +213,7 @@ hr.contact  {
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .navbar .logo {
