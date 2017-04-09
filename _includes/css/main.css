@@ -336,7 +336,7 @@ section.success {
 }
 
 
-p.project_info p{
+p.project_info {
     margin-top: 30px;
     text-align: justify;
 }
