@@ -330,6 +330,18 @@ section.success {
     z-index: 2;
 }
 
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 0px !important; 
+}
+
+
+p.project_info p{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -427,6 +439,15 @@ footer .footer-col {
     margin-bottom: 50px;
 }
 
+footer .footer-monkey{
+    background-image: url(../../img/macaco.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    margin-top: 60px;
+        
+}
+
 footer .footer-below {
     padding: 25px 0;
     background-color: #{{ site.color.secondary-dark }};
@@ -435,6 +456,7 @@ footer .footer-below {
 footer img{
     margin-top: 5px;
 }
+
 
 .btn-social {
     display: inline-block;
@@ -515,9 +537,9 @@ footer img{
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 25px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #222;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -526,8 +548,8 @@ footer img{
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
-    background-color: #{{ site.color.secondary }};
+    height: 25px;
+    background-color: #222;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
