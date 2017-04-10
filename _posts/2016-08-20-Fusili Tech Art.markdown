@@ -11,6 +11,6 @@ alt: Fusili Tech Art
 project-date: Agosto de 2016
 client: Fusili Tech Art
 category: Criação de identidade visual
-description: Use this area of the page to describe your project.
+description:
 
 ---

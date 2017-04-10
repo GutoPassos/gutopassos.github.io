@@ -10,6 +10,6 @@ alt: Universo da Elétrica
 project-date: Junho de 2016
 client: Universo da Elétrica
 category: Criação de identidade visual
-description: Use this area of the page to describe your project.
+description:
 
 ---

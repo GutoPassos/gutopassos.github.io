@@ -11,6 +11,6 @@ alt: Celular Point
 project-date: Fevereiro de 2016
 client: Celular Point
 category: Criação de identidade visual
-description: Use this area of the page to describe your project.
+description:
 
 ---
