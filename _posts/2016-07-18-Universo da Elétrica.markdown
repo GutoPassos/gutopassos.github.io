@@ -6,6 +6,7 @@ img: universo.png
 img-1: universo 1.png
 img-2: universo 2.png
 img-3: universo 3.png
+img-4: universo 4.png
 alt: Universo da Elétrica
 project-date: Junho de 2016
 client: Universo da Elétrica
