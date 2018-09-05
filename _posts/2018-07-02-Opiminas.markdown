@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 8
+date: 2018-07-02
+img: opiminas1.jpg
+img-1: opiminas2.jpg
+img-2: opiminas3.jpg
+img-3: opiminas4.jpg
+img-4: opiminas5.jpg
+alt: Opiminas
+project-date: Setembro de 2017
+client: Opiminas
+category: Criação de identidade visual
+description:
+
+---

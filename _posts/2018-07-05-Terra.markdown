@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 10
+date: 2018-07-05
+img: terra1.jpg
+img-1: terra2.jpg
+img-2: terra3.jpg
+img-3: terra4.jpg
+img-4: terra5.jpg
+alt: Terra
+project-date: Setembro de 2017
+client: Terra Doce
+category: Criação de identidade visual
+description:
+
+---

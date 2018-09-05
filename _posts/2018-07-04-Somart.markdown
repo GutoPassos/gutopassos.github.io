@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 9
+date: 2018-07-04
+img: somart1.jpg
+img-1: somart2.jpg
+img-2: somart3.jpg
+img-3: somart4.jpg
+img-4: somart5.jpg
+alt: Somart
+project-date: Abril de 2018
+client: Somart
+category: Criação de identidade visual
+description:
+
+---
